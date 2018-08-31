@@ -20,14 +20,17 @@ Enemy.prototype.update = function (dt) {
     this.x += this.s * dt;
 
     //Move enemy again
-    if (this.x > 400) {
-        this.x = -50;
-        this.s = 150 + Math.floor(Math.random() * 400);
+    if (this.x > 550) {
+        this.x = -100;
+        this.s = 100 + Math.floor(Math.random() * 512);
     }
 
     //Check clash between player and enemies then reset game
     //debugger;
-    if (player.x < this.x + 50 && player.x + 25 > this.x && player.y < this.y + 15 && 20 + player.y > this.y) {
+    if (player.x < this.x + 60 &&
+        player.x + 37 > this.x &&
+        player.y < this.y + 25 &&
+        30 + player.y > this.y) {
         player.x = 200;
         player.y = 380;
     }
@@ -65,7 +68,7 @@ Player.prototype.update = function () {
         setTimeout(() => {
             this.x = 200;
             this.y = 380;
-        }, 4000);
+        }, 1000);
     }
 };
 
