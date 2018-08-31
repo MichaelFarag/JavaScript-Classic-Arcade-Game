@@ -3,6 +3,16 @@
 project developed using HTMl, CSS, JavaScript, OOP.
 
 
+## How to play
+
+1 - Select your player
+
+2 - Try to corss river
+
+3 - Avoid to touch bugs
+
+4 - You will win when become on next side from river  
+
 ## Reference
 
 JavaScript | MDN https://developer.mozilla.org/bm/docs/Web/JavaScript
