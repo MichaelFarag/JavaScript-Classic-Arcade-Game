@@ -134,13 +134,13 @@ document.addEventListener('keyup', function (e) {
 });
 
 // Try to add Bouns Features
-var Bouns = function (x, y) {
-    this.x = x;
-    this.y = y;
-    // The image/sprite for our enemies, this uses
-    // a helper we've provided to easily load images
-    //this.sprite = 'images/star.png';
-};
-Bouns.prototype.render = function (){
-    ctx.drawImage(Resources.get('images/star.png'), this.x, this.y);
-}
+// var Bouns = function (x, y) {
+//     this.x = x;
+//     this.y = y;
+//     // The image/sprite for our enemies, this uses
+//     // a helper we've provided to easily load images
+//     //this.sprite = 'images/star.png';
+// };
+// Bouns.prototype.render = function (){
+//     ctx.drawImage(Resources.get('images/star.png'), this.x, this.y);
+// }
