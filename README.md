@@ -13,6 +13,8 @@ project developed using HTMl, CSS, JavaScript, OOP.
 
 4 - You will win when become on next side from river  
 
+5 - Start to clone project and enjoy with game :)
+
 ## Reference
 
 JavaScript | MDN https://developer.mozilla.org/bm/docs/Web/JavaScript
